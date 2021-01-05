@@ -4,13 +4,15 @@ body{
 	  font-family: monospace, sans-serif; /* Veranda, Helvetica, "Sans-Serif"; */
     font-size: 95%;
     /* added new width*/
-    width: 55%;
+
+		width: 55%;
     margin: 0px auto;
+
+		background-color: #AB4B52;
 }
 
 body p {
     /* font-family: monospace, sans-serif;*/
-    color: antiquewhite;
     padding: 0 2em 0 2em;
 }
 
@@ -18,10 +20,12 @@ div.main{
   /*background-image: url('../assets/img/textbox.png');
   background-repeat: no-repeat;*/
 
-  background: rgb(6,5,25);
-  background: linear-gradient(180deg, rgba(6,5,25,1) 0%, rgba(31,31,40,1) 35%, rgba(56,66,68,1) 100%);
-  border-radius: 10px;
+  background-color: antiquewhite;
+  border-radius: 5px;
   border-color: 3px solid #384244;
+	box-shadow: 5px 5px 2px black;
+
+	height: 40%;
   padding: 2em;
   margin: 10px;
 }
@@ -31,12 +35,12 @@ div.main{
     opacity: 77%;
     position: fixed;
     z-index: 1;
-    top: 20px;
+    top: 10%;
     right:15px;
     padding: 1em;
     margin: auto;
 
-    background-color: #00cc44;
+    background-color: antiquewhite;
 }
 
 .yousei img{
@@ -74,28 +78,28 @@ main article.lastart{
 /******* Header thing *******/
 
 header{
-    /*background-image: url(../images/bg/bg.gif);
-    background-repeat: repeat;*/
-    background-image: url('../assets/img/textbox.png');
-    background-position: left;
-    background-size:cover;
+		max-height: 10%;
+		max-width: 70%;
 
+		text-align: left;
+    padding: 5px
 
-    /* adds border on bottom w/ padding */
-    height: 15%;
-    border: 3px solid #606199;
-    padding: 2em;
-    margin-bottom: 1em;
 }
 
-/* Here is the styling for the nav bar */
+header h1{
+	font-size: 20pt;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+/*** Here is the styling for the nav bar ****/
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #001a09;
+  background-color: black;
 }
 
 li {
@@ -111,21 +115,24 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #00b359;
+  background-color: #B0002B;
 }
 
 .active {
-  background-color: #00cc44;
+  background-color: #8C0022;
 }
 
 
 
 /* the styles for the footer */
-footer p{
+footer{
     clear: both; /* clears float of aside */
     /* adding for padding, text color to white and bg color */
-    padding: 2em 0 2em; /*top + bottom */
-    border: 3px solid #606199;
-    text-align: center;
-    background-color: black;
+		position: fixed;
+
+		bottom: 0;
+		width: 50%;
+
+		color: white;
+		text-align: center;
 }
