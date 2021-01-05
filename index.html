@@ -4,12 +4,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ernesto's Homepage</title>
-    <link href="styles/stylesheet.css" rel="stylesheet" type="text/css" media="all">
+    <link id="theme" href="styles/stylesheet.css" rel="stylesheet" type="text/css" media="all">
+
+    <link rel="alt" type="text/css" href="styles/fancy.css" title="fancy">
+
     <link rel="icon" type="image/png" href="images/favicon.png">
   </head>
 
 
+  <script>
+    /* function darkTheme() {
+      var theme = document.getElementById('theme');
+      theme.href = "styles/fancy.css";
+    }
 
+    function lightTheme() {
+      var theme = document.getElementById('theme');
+      theme.href = "styles/stylesheet.css";
+    } */
+
+    // A function to swap between multiple stylesheets at will. Not optimized though. //
+    function themeSelect(){
+      //var theme = document.getElementById('theme');
+
+      var x = document.getElementById('themeSelect').value;
+
+      //var theme = document.getElementById('theme');
+
+      if(document.getElementById('themeSelect').value == "one"){
+          var theme = document.getElementById('theme');
+          theme.href = "styles/stylesheet.css";
+          document.getElementById('demo').innerHTML = "you selected " + x;
+        }
+        if (document.getElementById('themeSelect').value == "two") {
+        var theme = document.getElementById('theme');
+        theme.href = "styles/fancy.css";
+        document.getElementById('demo').innerHTML = "you selected " + x;
+      }
+    }
+  </script>
 
   <body>
 
@@ -30,6 +63,8 @@
     <main>
       <!-- main text section -->
     <div class="main">
+      <p id="demo"></p>
+
       <h2>Greetings digital traveler,</h2>
       <p>Greetings digital traveler, my name is Ernesto Matthew Zamudio, and this is my personal website. I’m a twenty-something with too many hobbies and not enough time.
         I received a Bachelor of Science in Computer System Technology at Illinois State University in the spring of ‘21. At university, in tandem with my major, I received a minor in East Asian Studies, with a focus on Japanese language.</p>
@@ -50,6 +85,11 @@
       </div>
     </main>
     <!-- footer -->
-    <footer>Matthew's site is a wip! No &copy no problem!</footer>
+    <footer>Matthew's site is a wip! No &copy no problem!
+      <select id="themeSelect" onchange="themeSelect()">
+        <option value="one" id="normal">Normal</option>
+        <option value="two" id="fancy">Fancy</option>
+      </select>
+    </footer>
   </body>
 </html>
