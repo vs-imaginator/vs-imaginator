@@ -17,9 +17,6 @@ body p {
 }
 
 div.main{
-  /*background-image: url('../assets/img/textbox.png');
-  background-repeat: no-repeat;*/
-
   background-color: antiquewhite;
   border-radius: 5px;
   border-color: 3px solid #384244;
@@ -27,7 +24,7 @@ div.main{
 
 	height: 40%;
   padding: 2em;
-  margin: 10px;
+  margin: 5px;
 }
 
 
@@ -126,12 +123,10 @@ li a:hover:not(.active) {
 
 /* the styles for the footer */
 footer{
-    clear: both; /* clears float of aside */
     /* adding for padding, text color to white and bg color */
-		position: fixed;
+		padding: 2em;
 
-		bottom: 0;
-		width: 50%;
+
 
 		color: white;
 		text-align: center;
