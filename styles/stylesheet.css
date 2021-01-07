@@ -1,8 +1,8 @@
 /******* Main body *******/
 body{
     /* background-image:url(../assets/img/bg/test.png);*/
-	  font-family: monospace, sans-serif; /* Veranda, Helvetica, "Sans-Serif"; */
-    font-size: 90%;
+	  font-family: serif, sans-serif; /* Veranda, Helvetica, "Sans-Serif"; */
+    font-size: 95%;
     /* added new width*/
 
 		width: 55%;
@@ -49,13 +49,14 @@ div.main{
     color: black;
 }
 
+/* navigation bar for about page */
 div.navi{
 	float: left;
 	text-align: left;
 	background: antiquewhite;
-	border: 3px solid black;
+	border: 2px solid black;
 
-	height: 40%;
+	height: auto;
 	width: 10%;
 
 	position: fixed;
@@ -64,7 +65,7 @@ div.navi{
 }
 
 div.navi h3{
-	font-size: 12pt;
+	font-size: 110%;
 	padding: 0 0 3px 3px;
 }
 
@@ -89,22 +90,6 @@ div.center{
     text-align: center;
 }
 
-main article{
-    /* height: 400px; /* (actually breaks my current design desu!
-    forced height because I want
-    image to show in full */
-    padding-bottom: 2em;
-}
-main article.lastart{
-    /* horizontal lines */
-    background-color: black;
-    border: 3px solid #606199;
-    margin: 2em 0 2em;
-    overflow: auto;
-}
-
-
-
 /******* Header thing *******/
 
 header{
@@ -113,7 +98,6 @@ header{
 
 		text-align: left;
     padding: 5px
-
 }
 
 header h1{
@@ -158,9 +142,6 @@ div.bar .active {
 footer{
     /* adding for padding, text color to white and bg color */
 		padding: 2em;
-
-
-
 		color: white;
 		text-align: center;
 }
