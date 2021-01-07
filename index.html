@@ -18,12 +18,14 @@
       if(document.getElementById('themeSelect').value == "one"){
           var theme = document.getElementById('theme');
           theme.href = "styles/stylesheet.css";
-          document.getElementById('demo').innerHTML = "you selected " + x;
         }
         if (document.getElementById('themeSelect').value == "two") {
         var theme = document.getElementById('theme');
         theme.href = "styles/fancy.css";
-        document.getElementById('demo').innerHTML = "you selected " + x;
+      }
+        if (document.getElementById('themeSelect').value == "three") {
+        var theme = document.getElementById('theme');
+        theme.href = "styles/xp.css";
       }
     }
   </script>
@@ -71,6 +73,7 @@
       <select id="themeSelect" onchange="themeSelect()">
         <option value="one" id="normal">Normal</option>
         <option value="two" id="fancy">Dark Mode</option>
+        <option value="three" id="xp">WinXP</option>
       </select>
     </footer>
   </body>

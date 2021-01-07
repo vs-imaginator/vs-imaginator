@@ -1,5 +1,5 @@
 ### Hi there 👋
-This is a work in progress...
+This personal website is currently, and probably always will be, a work in progress. As such, not all the code will look that great but I'm working on it. Feature creep is a persistant problem...
 
 <!--
 **vs-imaginator/vs-imaginator** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
