@@ -1,11 +1,11 @@
 /******* Main body *******/
 body{
 	font-family: sans-serif, serif;/* Veranda, Helvetica, "Sans-Serif"; */
-    font-size: 100%;
-    /* added new width*/
+	font-size: 100%;
+  /* added new width*/
 
 	width: 100%;
-    margin: auto;
+   margin: auto;
 
 	background-image: url('../assets/img/bliss.jpeg');
 	background-position: top left;
@@ -14,7 +14,7 @@ body{
 }
 
 body p {
-    padding: 0 2em 0 2em;
+   padding: 0 2em 0 2em;
 }
 
 div.main{
@@ -22,7 +22,7 @@ div.main{
 	overflow: auto;
 
 	border-radius: 3px;
-	border: 3px solid blue;
+	border: 3px solid #004e98;
 	box-shadow: 1px 1px 1px black;
 	height: 70%;
 	width: 40%;
@@ -50,15 +50,15 @@ div.dir a:visited{
 }
 
 .yousei{
-    position: fixed;
-    z-index: 1;
-    top: 10%;
-    right:15px;
-    padding: 1em;
-    margin: auto;
-	border-radius: 3px;
-	border: 3px solid blue;
-    background-color: antiquewhite;
+   position: fixed;
+   z-index: 1;
+   top: 10%;
+   right: 35px;
+   padding: 1em;
+   margin: auto;
+   border-radius: 3px;
+   border: 3px solid #004e98;
+   background-color: antiquewhite;
 }
 
 .yousei img{
@@ -100,14 +100,17 @@ div.bar{
 }
 div.bar ul {
 	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-  	background-color: blue;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	/*background-color: #004e98;*/
+	background-image: url('../assets/img/longtaskbar.png');
+	background-repeat: repeat-x;
+	background-size: cover;
 }
 
 div.bar li {
-  	float: left;
+	float: left;
 }
 
 div.bar li a {
@@ -119,7 +122,7 @@ div.bar li a {
 }
 
 div.bar li a:hover:not(.active) {
-	background-color: #1a1aff;
+	background-color: #004e98;
 }
 
 div.bar .active {
@@ -146,19 +149,19 @@ header{
 
 	background-color: antiquewhite;
 	border-radius: 3px;
-	border: 3px solid blue;
+	border: 3px solid #004e98;
 	box-shadow: 1px 1px 1px black;
 }
 
 header h1{
 	font-size: 110%;
 	color: black;
-	text-shadow: 2px 2px 4px blue;
+	text-shadow: 2px 2px 4px #004e98;
 }
 
 /* the styles for the footer */
 footer{
-    /* adding for padding, text color to white and bg color */
+  /* adding for padding, text color to white and bg color */
 	color: antiquewhite;
 	position: fixed;
 	bottom: 2px;

@@ -16,6 +16,16 @@ body p {
   padding: 0 2em 0 2em;
 }
 
+
+/***********************************/
+
+.center{
+  margin: auto;
+  text-align: center;
+}
+
+/***********************************/
+
 div.main{
   background-color: antiquewhite;
   border-radius: 5px;
@@ -25,6 +35,26 @@ div.main{
 	height: 40%;
   padding: 2em;
   margin: 5px;
+}
+
+/* special div for photos feed */
+div.feed{
+	margin: auto;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding: 1em;
+
+  background-color: antiquewhite;
+  border-radius: 5px;
+  border-color: 3px solid #384244;
+	box-shadow: 5px 5px 2px black;
+
+	height: 40%;
+	max-width: 55%;
+}
+div.feed img{
+	max-width: 85%;
+	border: 1px solid black;
 }
 
 
@@ -80,13 +110,6 @@ a:hover{
 }
 a:visited{
 	color: #8C0022;
-}
-
-/***********************************/
-
-div.center{
-  margin: auto;
-  text-align: center;
 }
 
 /******* Header thing *******/
