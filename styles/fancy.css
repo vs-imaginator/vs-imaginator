@@ -1,30 +1,40 @@
 /******* Main body *******/
 body{
-    /* background-image:url(../assets/img/bg/test.png);*/
-	  font-family: monospace, sans-serif; /* Veranda, Helvetica, "Sans-Serif"; */
-    font-size: 90%;
+	  font-family: serif, sans-serif, monospace;
+    font-size: 95%;
     /* added new width*/
 
 		width: 55%;
     margin: 0px auto;
 
-		background-color: blue;
+		background-color: black;
 }
 
 body p {
     /* font-family: monospace, sans-serif;*/
     padding: 0 2em 0 2em;
+		color: antiquewhite;
 }
 
 div.main{
-  background-color: antiquewhite;
+  background-color: #0d0d0d;
   border-radius: 5px;
-  border-color: 3px solid #384244;
-	box-shadow: 5px 5px 2px black;
+  border: 2px solid #ffffff;
 
 	height: 40%;
   padding: 2em;
   margin: 5px;
+}
+
+div.main h2{
+	color: #ffffb3
+}
+div.main blockquote{
+	color: #ffffb3
+}
+
+div.main ul{
+	color: antiquewhite;
 }
 
 
@@ -37,7 +47,7 @@ div.main{
     padding: 1em;
     margin: auto;
 
-    background-color: antiquewhite;
+    background-color: #B0002B;
 }
 
 .yousei img{
@@ -52,8 +62,8 @@ div.main{
 div.navi{
 	float: left;
 	text-align: left;
-	background: antiquewhite;
-	border: 3px solid black;
+	background: #0d0d0d;
+	border: 3px solid antiquewhite;
 
 	height: 40%;
 	width: 10%;
@@ -70,7 +80,7 @@ div.navi h3{
 
 /* link styling for navi thing */
 a:link{
-	color: black;
+	color: antiquewhite;
 	font-style: none;
 	text-decoration: none;
 }
@@ -79,7 +89,7 @@ a:hover{
 	font-style: italic;
 }
 a:visited{
-	color: #8C0022;
+	color: antiquewhite;
 }
 
 /***********************************/
@@ -89,22 +99,6 @@ div.center{
     text-align: center;
 }
 
-main article{
-    /* height: 400px; /* (actually breaks my current design desu!
-    forced height because I want
-    image to show in full */
-    padding-bottom: 2em;
-}
-main article.lastart{
-    /* horizontal lines */
-    background-color: black;
-    border: 3px solid #606199;
-    margin: 2em 0 2em;
-    overflow: auto;
-}
-
-
-
 /******* Header thing *******/
 
 header{
@@ -113,13 +107,12 @@ header{
 
 		text-align: left;
     padding: 5px
-
 }
 
 header h1{
 	font-size: 20pt;
 	color: white;
-	text-shadow: 2px 2px 4px #000000;
+	text-shadow: 2px 2px 4px #ffffb3;
 }
 
 /*** Here is the styling for the nav bar ****/
@@ -129,7 +122,7 @@ div.bar ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: #0d0d0d;
 }
 
 div.bar li {
@@ -158,8 +151,6 @@ div.bar .active {
 footer{
     /* adding for padding, text color to white and bg color */
 		padding: 2em;
-
-
 
 		color: white;
 		text-align: center;
