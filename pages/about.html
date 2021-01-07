@@ -5,15 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Ernesto</title>
     <link id="theme" href="../styles/stylesheet.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="alt" type="text/css" href="../styles/fancy.css" title="fancy">
     <link rel="icon" type="image/png" href="images/favicon.png">
   </head>
 
   <script>
     // A function to swap between multiple stylesheets at will. Not optimized though. //
     function themeSelect(){
-      //var theme = document.getElementById('theme');
-
       if(document.getElementById('themeSelect').value == "one"){
           var theme = document.getElementById('theme');
           theme.href = "../styles/stylesheet.css";
@@ -21,6 +18,10 @@
         if (document.getElementById('themeSelect').value == "two") {
         var theme = document.getElementById('theme');
         theme.href = "../styles/fancy.css";
+      }
+        if (document.getElementById('themeSelect').value == "three") {
+        var theme = document.getElementById('theme');
+        theme.href = "../styles/xp.css";
       }
     }
   </script>
@@ -45,29 +46,32 @@
       <div class="navi">
         <h3><a href="#identity">About this site</a></h3>
         <h3><a href="#about">About me</a></h3>
-        <h3><a href="#links">Where to find me</a></h3>
         <h3><a href="#skills">My skills</a></h3>
+        <h3><a href="#specs">My Equipment</a></h3>
+        <h3><a href="#software">Prefered Software</a></h3>
+        <h3><a href="#links">Where to find me</a></h3>
       </div>
 
     <div class="main">
-
-      <h2><a name="identity">What is "VS Imaginator?"</a></h2>
-      <p><i>Boogiepop Returns: VS Imaginator Part 1</i> is the second entry in a long-running pulp-fiction series “Boogiepop” novels published in Japan by author KADONO Kouhei, published in 1998.
-        “Imaginator” is representative of the threat of conformity, which is the major theme of the second and third novels in the series. I am a strong advocate of individualism, because great ideas can only be cultivated within adversity. Those who conform will never have a chance to shine.</p>
-        <blockquote><i>“Be yourself, everyone else is already taken”</i><br>--Oscar Wilde</blockquote>
-
+      <!-- about the site-->
+    <h2><a name="identity">What is "VS Imaginator?"</a></h2>
+    <p><i>Boogiepop Returns: VS Imaginator Part 1</i> is the second entry in a long-running pulp-fiction series “Boogiepop” novels published in Japan by author KADONO Kouhei, published in 1998.
+      “Imaginator” is representative of the threat of conformity, which is the major theme of the second and third novels in the series. I am a strong advocate of individualism, because great ideas can only be cultivated within adversity.</p>
+      <blockquote><i>“Be yourself, everyone else is already taken”</i><br>--Oscar Wilde</blockquote>
+      <!-- about me! -->
       <h2><a name="about">About Ernesto</a></h2>
-      <p>In short, Ernesto Matthew Zamudio is a twenty-something year old computer geek. I’m a lifelong learner and enjoy dipping my toes into as many topics as I am able to. Anything from philosophy to programming, I enjoy making little projects for myself whenever possible to learn as much as I can to test my limits. I believe in the open source software movement, advocate for digital privacy and oftentimes find myself thinking about cyberpunk. </p>
+      <p>In short, Ernesto Matthew Zamudio is a twenty-something year old computer geek. I’m a lifelong learner and enjoy dipping my toes into as many topics as I am able to. Anything from philosophy to programming, I enjoy making little projects for myself whenever possible to learn as much as I can to test my limits. I believe in the open source software movement, advocate for digital privacy and oftentimes find myself thinking about cyberpunk<sup><a href="https://cyberpunkforums.com/viewtopic.php?id=361">[1]</a></sup>.</p>
       <p>My passion for computer technology began as a result of my nostalgic appreciation for retro tech, having many fond memories of using my family’s old Windows XP computer, where I first interfaced with the web. Consequently, I have enjoyed building various websites following the design philosophies of this era for some time now.</p>
       <p>I build websites from scratch as a hobby, run a media server at home, do some light programming, and tinker with GNU/Linux, my operating system of choice.</p>
-      <p>Aside from computer related focuses, I am a self-proclaimed Japanophile and enjoy researching the Japanese language and culture, an interest I’ve held for a number of years. My primary areas of expertise are “Lost Decade” and researching the cultural impact of pop culture. I also fan-translate Japanese manga and song lyrics to further refine my language abilities. I plan on visiting Japan in the near future to put my language skills to the test.</p>
-      <p>Beyond that, I am an avid book-lover, enjoy watching <i>Japanimation</i> foreign films, listening to a variety of music and will occasionally write short essays across various blogs in my spare time. I always carry a book on me instead of fiddling with my phone. Time moves pretty fast, I’d prefer not to waste it!</p>
-
+      <p>Aside from computer related focuses, I am a self-proclaimed Japanophile<sup><a href="https://www.merriam-webster.com/dictionary/Japanophile">[2]</a></sup> and enjoy researching the Japanese language and culture, an interest I’ve held for a number of years. My primary areas of expertise are “Lost Decade" <sup><a href="https://en.wikipedia.org/wiki/Lost_Decade_(Japan)">[2]</a></sup> and researching the cultural impact of pop culture. I also fan-translate Japanese <i>manga</i> and song lyrics to further refine my language abilities. I plan on visiting Japan in the near future to put my language skills to the test.</p>
+      <p>Beyond that, I am an avid book-lover, enjoy watching <i>japanimation</i><sup><a href="https://en.wiktionary.org/wiki/Japanimation">[4]</a></sup>, foreign films, listening to a variety of music and will occasionally write short essays across various blogs in my spare time. I always carry a book on me instead of fiddling with my phone. Time moves pretty fast, I’d prefer not to waste it!</p>
+      <!-- personal links -->
       <h2><a name="links">Where to find me</a></h2>
       <ul>
-        <li><a href="https://www.linkedin.com/in/ernesto-zamudio-35933a1b6/" target="_blank">LinkedIn</li>
-        <li><a href="https://github.com/vs-imaginator" target="_blank">Github</li>
+        <li><a href="https://www.linkedin.com/in/ernesto-zamudio-35933a1b6/">LinkedIn</li>
+        <li><a href="https://github.com/vs-imaginator">Github</li>
       </ul>
+      <!-- my "skills" -->
       <h2><a name="skills">My Accomplishments &amp; Skills</a></h2>
       <ul>
         <li>Certifications:</li>
@@ -85,16 +89,72 @@
           <li>Languages: Native Spanish speaker, 3+ years of Japanese (N5 certified, projected skills at ~N3).</li>
         </ul>
       </ul>
+      <!-- my tech equipment -->
+      <h2><a name="specs">My Equipment</a></h2>
+      <h3><i>Desktop:</i></h3>
+      <p>Here are the specs for my main desktop computer. It was the first computer I built in 2013, and I swear, it was an good build 7 years ago! I have been incrementally upgrading and repairing it since.</p>
+      <ul>
+        <li>CPU: i7-4770k @4.2Ghz</li>
+        <li>CPU Cooler: ARCTIC Freezer 34</li>
+        <li>GPU: EVGA GTX 770</li>
+        <li>MOBO: Asus Z97-P</li>
+        <li>RAM: Kingston HyperX Furry 16GB (DDR3-1866Mhz)</li>
+        <li>Storage: 1x1TB WD Blue, 2x8TB WD "Whites" in RAID 1.</li>
+        <li>PSU: SeaSonic FOCUS Plus Gold 650W</li>
+        <li>Case: Corsair Vengance C70</li>
+      </ul>
+      <h3><i>Laptops:</i></h3>
+      <ul>
+        <li>Main laptop: Lenovo Thinkpad x220</li>
+        <ul>
+          <li>Upgrades: 500GB SSD, 8GB RAM.</li>
+        </ul>
+        <li>Old laptop: HP envy m6</li>
+        <ul>
+          <li>Upgrades: Replaced 500GB HDD after it failed in late 2015.</li>
+        </ul>
+      </ul>
+      <h3><i>Servers:</i></h3>
+      <ul>
+        <li>Messing with the family's old Dell XP PC, but it's nearly as old as me.</li>
+      </ul>
+      <!-- prefered software -->
+      <h2><a name="software">Prefered Software</a></h2>
+      <p>Current software I use on a daily basis.</p>
+      <ul>
+        <li>Operating System: GNU/Linux, Windows 10.</li>
+        <ul>
+          <li>Custom built desktop: Windows 10</li>
+          <li>Lenovo Thinkpad x220: Windows 10, Arch Linux</li>
+          <li>Old HP envy m6: Ubuntu 20.08</li>
+          <li>Ancient "server": Windows XP, Debian.</li>
+        </ul>
+        <li>Web Browser: Firefox</li>
+        <ul>
+          <li>Search Engine(s): Duckduckgo whwnever possible, Google for images only.</li>
+          <li>Extensions I can't live without: uBlock Orgin, uMatrix/Privacy Badger, Decentraleyes, HTTPSEverywhere (now redundant with latest version of FF), ViolentMonkey, Stylus, Rikaichamp, Imagus.</li>
+        </ul>
+        <li>Text Editor: Atom (cross-platform)</li>
+        <ul>
+          <li>Bonus points for seamless Github integration for Windows.</li>
+        </ul>
+        <li>Photo Editor: Paint.net &amp; Photoshop (Windows), Gimp (GNU/Linux)</li>
+        <li>Audio Editor: Audacity (cross-platform)</li>
+        <li>Video Player: mpv (cross-platform), madvr + MPC-HC (Windows)</li>
+        <li>Music Player: Clementine (GNU/Linux), MusicBee (Windows)</li>
+        <li>PDF Viewer: SumatraPDF (Windows), Zathura (GNU/Linux)</li>
+        <li>P2P Client: qBittorrent</li>
+      </ul>
     </div>
-
     </main>
+
     <!-- footer -->
     <footer>Ernesto M. Zamudio &copy; 2021
       <select id="themeSelect" onchange="themeSelect()">
         <option value="one" id="normal">Normal</option>
         <option value="two" id="fancy">Dark Mode</option>
+        <option value="three" id="xp">WinXP</option>
       </select>
-
     </footer>
   </body>
 </html>
