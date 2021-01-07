@@ -33,6 +33,11 @@ div.main{
 	left: 25px;
 }
 
+div.main h2{
+	margin-left: 1em;
+	font-size: 90%;
+}
+
 /* link styling for directory links */
 div.dir a:link{
 	color: #9b8bda;
@@ -71,21 +76,21 @@ div.dir a:visited{
 }
 
 div.navi{
-	float: left;
+	float: right;
 	text-align: left;
 	background: antiquewhite;
-	border: 3px solid black;
+	border: 3px solid #004e98;
 
-	height: 40%;
-	width: 10%;
+	height: auto;
+	width: 15%;
 
 	position: fixed;
-	left: 12%;
-	top: 30%;
+	right: 40%;
+	top: 20%;
 }
 
 div.navi h3{
-	font-size: 13pt;
+	font-size: 12pt;
 	padding: 0 0 3px 3px;
 }
 
