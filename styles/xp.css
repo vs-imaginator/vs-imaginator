@@ -1,0 +1,166 @@
+/******* Main body *******/
+body{
+	  font-family: sans-serif, serif;/* Veranda, Helvetica, "Sans-Serif"; */
+    font-size: 100%;
+    /* added new width*/
+
+		width: 100%;
+    margin: auto;
+
+		background-image: url('../assets/img/bliss.jpeg');
+		background-position: top left;
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+
+body p {
+    padding: 0 2em 0 2em;
+}
+
+div.main{
+  background-color: antiquewhite;
+	overflow: auto;
+
+	border-radius: 3px;
+	border: 3px solid blue;
+	box-shadow: 1px 1px 1px black;
+	height: 70%;
+	width: 40%;
+
+	position: fixed;
+	z-index: 1;
+	bottom: 70px;
+	left: 25px;
+}
+
+/* link styling for directory links */
+div.dir a:link{
+	color: #9b8bda;
+	font-style: none;
+	text-decoration: none;
+}
+
+div.dir a:hover{
+	color: #bcb1e7;
+	text-decoration: underline;
+}
+
+div.dir a:visited{
+	color: #583dc2;
+}
+
+.yousei{
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    right:15px;
+    padding: 1em;
+    margin: auto;
+		border-radius: 3px;
+		border: 3px solid blue;
+    background-color: antiquewhite;
+}
+
+.yousei img{
+  /* messing around here */
+  max-height: 200px;
+}
+
+.yousei p{
+    color: black;
+}
+
+div.navi{
+	float: left;
+	text-align: left;
+	background: antiquewhite;
+	border: 3px solid black;
+
+	height: 40%;
+	width: 10%;
+
+	position: fixed;
+	left: 12%;
+	top: 30%;
+}
+
+div.navi h3{
+	font-size: 13pt;
+	padding: 0 0 3px 3px;
+}
+
+/*** Here is the styling for the nav bar ****/
+
+div.bar{
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	max-height: 7%;
+}
+div.bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+div.bar li {
+  float: left;
+}
+
+div.bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+div.bar li a:hover:not(.active) {
+  background-color: #1a1aff;
+}
+
+div.bar .active {
+  background-color: green;
+}
+
+
+/***********************************/
+
+div.center{
+    margin: auto;
+    text-align: center;
+}
+
+/******* Header thing *******/
+
+header{
+		max-height: 15%;
+		max-width: 35%;
+
+		text-align: center;
+    margin: 10px;
+		padding: 5px;
+
+		background-color: antiquewhite;
+		border-radius: 3px;
+		border: 3px solid blue;
+		box-shadow: 1px 1px 1px black;
+}
+
+header h1{
+	font-size: 110%;
+	color: black;
+	text-shadow: 2px 2px 4px blue;
+}
+
+/* the styles for the footer */
+footer{
+    /* adding for padding, text color to white and bg color */
+		color: antiquewhite;
+		position: fixed;
+		bottom: 2px;
+		right: 5px;
+}
