@@ -1,0 +1,115 @@
+/******* Main body *******/
+body{
+    /* background-image:url(../assets/img/bg/test.png);*/
+	  font-family: monospace; /* Veranda, Helvetica, "Sans-Serif"; */
+    font-size: 100%;
+    /* added new width*/
+
+		width: 55%;
+    margin: 0px auto;
+
+		background-color: black;
+}
+
+body p {
+    /* font-family: monospace, sans-serif;*/
+    padding: 0 2em 0 2em;
+}
+
+div.dir{
+  background-color: black;
+  border-radius: 4px;
+  border: 3px solid #5B40C2;
+
+	height: 30%;
+	width: 30%;
+  padding: 2em;
+
+	margin: 30% 0 0 30%;
+}
+
+div.dir h3{
+	color: #4f37ae;
+}
+
+
+/* link styling for directory links */
+div.dir a:link{
+	color: #9b8bda;
+	font-style: none;
+	text-decoration: none;
+}
+
+/* styling for the slash */
+div.dir .back{
+	color: #9b8bda;
+	font-style: none;
+	text-decoration: none;
+}
+
+div.dir a:hover{
+	color: #bcb1e7;
+	text-decoration: underline;
+}
+
+/* more styling for the slash */
+div.dir .back:hover{
+	color: #bcb1e7;
+	font-style: italic;
+}
+
+div.dir a:visited{
+	color: #583dc2;
+}
+
+
+
+
+.yousei{
+    opacity: 77%;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    right:15px;
+    padding: 1em;
+    margin: auto;
+
+    background-color: antiquewhite;
+}
+
+.yousei img{
+  /* messing around here */
+  max-height: 200px;
+}
+
+.yousei p{
+    color: black;
+}
+
+div.navi{
+	float: left;
+	text-align: left;
+	background: antiquewhite;
+	border: 3px solid black;
+
+	height: 40%;
+	width: 10%;
+
+	position: fixed;
+	left: 12%;
+	top: 30%;
+}
+
+div.navi h3{
+	font-size: 13pt;
+	padding: 0 0 3px 3px;
+}
+
+
+
+/***********************************/
+
+div.center{
+    margin: auto;
+    text-align: center;
+}
