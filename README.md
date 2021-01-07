@@ -1,5 +1,14 @@
-### Hi there 👋
-This personal website is currently, and probably always will be, a work in progress. As such, not all the code will look that great but I'm working on it. Feature creep is a persistant problem...
+### Hello there 👋
+![wired_dreams](https://raw.githubusercontent.com/vs-imaginator/vs-imaginator.github.io/main/assets/img/wired_dreams.png)
+This personal website is currently, and probably always will be, a work in progress. As such, not all the code will look that great but I'm working on it. Feature creep is a persistent problem...
+
+Here's what I got so far:
+* Home page
+* Some cool photos I took
+* CV/Resume page (resume not uploaded yet!)
+* About page
+
+More to come, please wait warmly...
 
 <!--
 **vs-imaginator/vs-imaginator** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
