@@ -1,16 +1,16 @@
 /******* Main body *******/
 body{
-	  font-family: sans-serif, serif;/* Veranda, Helvetica, "Sans-Serif"; */
+	font-family: sans-serif, serif;/* Veranda, Helvetica, "Sans-Serif"; */
     font-size: 100%;
     /* added new width*/
 
-		width: 100%;
+	width: 100%;
     margin: auto;
 
-		background-image: url('../assets/img/bliss.jpeg');
-		background-position: top left;
-		background-size: cover;
-		background-repeat: no-repeat;
+	background-image: url('../assets/img/bliss.jpeg');
+	background-position: top left;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 body p {
@@ -56,18 +56,18 @@ div.dir a:visited{
     right:15px;
     padding: 1em;
     margin: auto;
-		border-radius: 3px;
-		border: 3px solid blue;
+	border-radius: 3px;
+	border: 3px solid blue;
     background-color: antiquewhite;
 }
 
 .yousei img{
-  /* messing around here */
-  max-height: 200px;
+	/* messing around here */
+	max-height: 200px;
 }
 
 .yousei p{
-    color: black;
+	color: black;
 }
 
 div.navi{
@@ -99,31 +99,31 @@ div.bar{
 	max-height: 7%;
 }
 div.bar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: blue;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: blue;
 }
 
 div.bar li {
-  float: left;
+  	float: left;
 }
 
 div.bar li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px 16px;
-  text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
 }
 
 div.bar li a:hover:not(.active) {
-  background-color: #1a1aff;
+	background-color: #1a1aff;
 }
 
 div.bar .active {
-  background-color: green;
+	background-color: green;
 }
 
 
@@ -137,17 +137,17 @@ div.center{
 /******* Header thing *******/
 
 header{
-		max-height: 15%;
-		max-width: 35%;
+	max-height: 15%;
+	max-width: 35%;
 
-		text-align: center;
+	text-align: center;
     margin: 10px;
-		padding: 5px;
+	padding: 5px;
 
-		background-color: antiquewhite;
-		border-radius: 3px;
-		border: 3px solid blue;
-		box-shadow: 1px 1px 1px black;
+	background-color: antiquewhite;
+	border-radius: 3px;
+	border: 3px solid blue;
+	box-shadow: 1px 1px 1px black;
 }
 
 header h1{
@@ -159,8 +159,8 @@ header h1{
 /* the styles for the footer */
 footer{
     /* adding for padding, text color to white and bg color */
-		color: antiquewhite;
-		position: fixed;
-		bottom: 2px;
-		right: 5px;
+	color: antiquewhite;
+	position: fixed;
+	bottom: 2px;
+	right: 5px;
 }

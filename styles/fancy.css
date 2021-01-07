@@ -1,19 +1,17 @@
 /******* Main body *******/
 body{
-	  font-family: serif, sans-serif, monospace;
-    font-size: 95%;
-    /* added new width*/
-
-		width: 55%;
-    margin: 0px auto;
-
-		background-color: black;
+  font-family: serif, sans-serif, monospace;
+  font-size: 95%;
+  /* added new width*/
+	width: 55%;
+  margin: 0px auto;
+	background-color: black;
 }
 
 body p {
-    /* font-family: monospace, sans-serif;*/
-    padding: 0 2em 0 2em;
-		color: antiquewhite;
+  /* font-family: monospace, sans-serif;*/
+  padding: 0 2em 0 2em;
+	color: antiquewhite;
 }
 
 div.main{
@@ -39,15 +37,14 @@ div.main ul{
 
 
 .yousei{
-    opacity: 77%;
-    position: fixed;
-    z-index: 1;
-    top: 10%;
-    right:15px;
-    padding: 1em;
-    margin: auto;
-
-    background-color: #B0002B;
+  opacity: 77%;
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  right:15px;
+  padding: 1em;
+  margin: auto;
+  background-color: #B0002B;
 }
 
 .yousei img{
@@ -56,7 +53,7 @@ div.main ul{
 }
 
 .yousei p{
-    color: black;
+  color: black;
 }
 
 div.navi{
@@ -95,18 +92,18 @@ a:visited{
 /***********************************/
 
 div.center{
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
 }
 
 /******* Header thing *******/
 
 header{
-		max-height: 10%;
-		max-width: 70%;
+	max-height: 10%;
+	max-width: 70%;
 
-		text-align: left;
-    padding: 5px
+	text-align: left;
+  padding: 5px
 }
 
 header h1{
@@ -116,7 +113,6 @@ header h1{
 }
 
 /*** Here is the styling for the nav bar ****/
-
 div.bar ul {
   list-style-type: none;
   margin: 0;
@@ -145,13 +141,10 @@ div.bar .active {
   background-color: #8C0022;
 }
 
-
-
 /* the styles for the footer */
 footer{
-    /* adding for padding, text color to white and bg color */
-		padding: 2em;
-
-		color: white;
-		text-align: center;
+  /* adding for padding, text color to white and bg color */
+	padding: 2em;
+	color: white;
+	text-align: center;
 }

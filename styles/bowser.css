@@ -1,14 +1,12 @@
 /******* Main body *******/
 body{
     /* background-image:url(../assets/img/bg/test.png);*/
-	  font-family: monospace; /* Veranda, Helvetica, "Sans-Serif"; */
+	 font-family: monospace; /* Veranda, Helvetica, "Sans-Serif"; */
     font-size: 100%;
     /* added new width*/
-
-		width: 55%;
+	width: 55%;
     margin: 0px auto;
-
-		background-color: black;
+	background-color: black;
 }
 
 body p {
@@ -17,14 +15,12 @@ body p {
 }
 
 div.dir{
-  background-color: black;
-  border-radius: 4px;
-  border: 3px solid #5B40C2;
-
+	background-color: black;
+	border-radius: 4px;
+	border: 3px solid #5B40C2;
 	height: 30%;
 	width: 30%;
-  padding: 2em;
-
+	padding: 2em;
 	margin: 30% 0 0 30%;
 }
 
@@ -78,8 +74,8 @@ div.dir a:visited{
 }
 
 .yousei img{
-  /* messing around here */
-  max-height: 200px;
+	/* messing around here */
+	max-height: 200px;
 }
 
 .yousei p{
@@ -105,10 +101,7 @@ div.navi h3{
 	padding: 0 0 3px 3px;
 }
 
-
-
 /***********************************/
-
 div.center{
     margin: auto;
     text-align: center;

@@ -1,19 +1,19 @@
 /******* Main body *******/
 body{
-    /* background-image:url(../assets/img/bg/test.png);*/
-	  font-family: serif, sans-serif; /* Veranda, Helvetica, "Sans-Serif"; */
-    font-size: 95%;
-    /* added new width*/
+  /* background-image:url(../assets/img/bg/test.png);*/
+	font-family: serif, sans-serif; /* Veranda, Helvetica, "Sans-Serif"; */
+  font-size: 95%;
+  /* added new width*/
 
-		width: 55%;
-    margin: 0px auto;
+	width: 55%;
+  margin: 0px auto;
 
-		background-color: #AB4B52;
+	background-color: #AB4B52;
 }
 
 body p {
-    /* font-family: monospace, sans-serif;*/
-    padding: 0 2em 0 2em;
+  /* font-family: monospace, sans-serif;*/
+  padding: 0 2em 0 2em;
 }
 
 div.main{
@@ -29,15 +29,14 @@ div.main{
 
 
 .yousei{
-    opacity: 77%;
-    position: fixed;
-    z-index: 1;
-    top: 10%;
-    right:15px;
-    padding: 1em;
-    margin: auto;
-
-    background-color: antiquewhite;
+  opacity: 77%;
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  right:15px;
+  padding: 1em;
+  margin: auto;
+  background-color: antiquewhite;
 }
 
 .yousei img{
@@ -46,7 +45,7 @@ div.main{
 }
 
 .yousei p{
-    color: black;
+  color: black;
 }
 
 /* navigation bar for about page */
@@ -86,18 +85,18 @@ a:visited{
 /***********************************/
 
 div.center{
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
 }
 
 /******* Header thing *******/
 
 header{
-		max-height: 10%;
-		max-width: 70%;
+	max-height: 10%;
+	max-width: 70%;
 
-		text-align: left;
-    padding: 5px
+	text-align: left;
+  padding: 5px
 }
 
 header h1{
@@ -136,12 +135,10 @@ div.bar .active {
   background-color: #8C0022;
 }
 
-
-
 /* the styles for the footer */
 footer{
-    /* adding for padding, text color to white and bg color */
-		padding: 2em;
-		color: white;
-		text-align: center;
+  /* adding for padding, text color to white and bg color */
+	padding: 2em;
+	color: white;
+	text-align: center;
 }
