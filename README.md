@@ -5,7 +5,8 @@ This personal website is currently, and probably always will be, a work in progr
 Here's what I got so far:
 * Home page
 * Some cool photos I took
-* CV/Resume page (resume not uploaded yet!)
+* Resume page (slightly modified Resume for the sake of privacy)
+* A couple scripts and papers in my curated portfolio
 * About page
 
 More to come, please wait warmly...
